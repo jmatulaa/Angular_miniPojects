@@ -1,0 +1,24 @@
+<div class="pl">
+  <h2 style="text-align: center"> Zaloguj się </h2>
+   Mail:
+  <br>
+  <input type="text" placeholder="imie@nazwisko.com" (keyup)="onKeyUp($event)">
+  <br><br>
+  Hasło:
+  <br>
+  <input type="text" placeholder="********">
+  <br><br>
+  <button (click)="createUser()" style="border-bottom-style: dot-dash; border-color: darkgreen">Zatwierdź</button>
+  <div class="users">
+    <h4 style="text-align: center; margin-top: 5px; color: darkgreen">Zalogowani użytkownicy</h4>
+  <ul class = "Collection" >
+    <li class="collection-item row" *ngFor="let user of users; let i =index;">
+     {{i+1}}.  {{user.name}}
+      {{user.password}}
+    </li>
+  </ul>
+  </div>
+
+
+</div>
+

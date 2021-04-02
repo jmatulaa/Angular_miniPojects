@@ -1,0 +1,33 @@
+.registration
+{
+  border-block-style: dotted;
+  border-block-color: darkgreen;
+  text-align: center;
+  background-color: blanchedalmond;
+  float: left;
+  width: 250px;
+  height: 250px;
+  position: center;
+}
+
+.Collection
+{
+  list-style-type: none;
+}
+
+input
+{
+  border-color: darkgreen;
+}
+
+.users
+{
+  margin: auto;
+  background-color: blanchedalmond;
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  border-block-start-style: dotted;
+  border-block-color: darkgreen;
+  text-align: left;
+}

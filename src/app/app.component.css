@@ -1,0 +1,21 @@
+container
+{
+  margin: auto 5px;
+  width: 100%;
+}
+
+.panel
+{
+  display: inline-block;
+  margin-top: 50px;
+}
+
+body
+{
+
+  font-family: cursive;
+  text-align: center;
+  height: 1000px;
+}
+
+

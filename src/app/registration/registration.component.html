@@ -1,0 +1,22 @@
+<div class="registration">
+  <h2>Zarejestruj się</h2>
+
+  Mail:
+  <br>
+  <input type="text" placeholder="imie@nazwisko.com" #nameInput>
+  <br><br>
+  Hasło:
+  <br>
+  <input type="text" placeholder="Ru776CFg" #nameInput2 >
+  <br><br>
+  <button (click)="helloUser(nameInput.value); nameInput.value=''; nameInput2.value=''" (click)="sayHello(nameInput.value)" style="border-bottom-style: dot-dash; border-color: darkgreen">Zatwierdź</button>
+  <div class="users">
+   <h4 style="text-align: center; margin-top: 5px; color: darkgreen">Nowi użytkownicy</h4>
+    <ul class = "Collection">
+      <li class="collection-item row"  *ngFor="let user of users; let i = index ">
+        {{messageForUser}} {{user.name}} !
+      </li>
+    </ul>
+  </div>
+
+</div>
